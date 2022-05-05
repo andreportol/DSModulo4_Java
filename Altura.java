@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Altura {
 	
-	
-	
-	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int quantidade, idade = 0;
@@ -16,7 +13,6 @@ public class Altura {
 		System.out.print("Quantas pessoas serão digitadas: ");
 		quantidade = s.nextInt();
 		String[] nomes = new String[quantidade];
-		String[] nomes_menor16 = new String[quantidade];
 		double[] alturas = new double[quantidade];
 		int[] idades = new int[quantidade];
 		double soma_altura = 0, media_altura;
@@ -52,8 +48,7 @@ public class Altura {
 		for(int i = 0; i < quantidade; i++) {
 			if(idades[i]<16) {
 				menor_idade += 1;
-				nomes_menor16[i] = nomes[i];
-				System.out.print(nomes_menor16[i] + "  ");
+				System.out.print(nomes[i] + "  ");
 			}
 		}
 		System.out.println("");
