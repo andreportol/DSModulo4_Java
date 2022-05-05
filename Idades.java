@@ -1,4 +1,4 @@
-package devsuperior;
+package devsuperior.DSModulo4_Java;
 
 import java.util.Scanner;
 
