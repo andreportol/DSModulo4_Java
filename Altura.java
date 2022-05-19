@@ -1,4 +1,4 @@
-package devsuperior.DSModulo4_Java;
+//package devsuperior.DSModulo4_Java;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Altura {
 		String nome = "";
 		double altura = 0;
 
-		System.out.print("Quantas pessoas serão digitadas: ");
+		System.out.print("Quantas pessoas serï¿½o digitadas: ");
 		quantidade = s.nextInt();
 		String[] nomes = new String[quantidade];
 		double[] alturas = new double[quantidade];
@@ -20,7 +20,7 @@ public class Altura {
 
 		// coletando dados
 		for (int i = 0; i < quantidade; i++) {
-			System.out.printf("Dados da %dº pessoa: \n", i + 1);
+			System.out.printf("Dados da %dï¿½ pessoa: \n", i + 1);
 			System.out.print("Nome: ");
 			nome = s.next();
 			nomes[i] = nome;
@@ -35,7 +35,7 @@ public class Altura {
 		System.out.println("*******************************************************");
 		System.out.println(" ");
 
-		// idade média
+		// idade mï¿½dia
 		for (int i = 0; i < quantidade; i++) {
 			soma_altura = soma_altura + alturas[i];
 		}
